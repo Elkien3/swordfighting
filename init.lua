@@ -18,7 +18,7 @@ function swordfighting_register_sword(name, def)
 	defaults.mesh = "sword.b3d"
 	defaults.texture = "sworduv.png"
 	defaults.length = 1.1
-	defaults.damage = 20
+	defaults.damage = 4
 	defaults.attack_time = .5
 	defaults.defend_time = .01
 	defaults.block_distance = 1.3
@@ -88,7 +88,7 @@ swordfighting_register_sword("swordfighting:knife", {--knife
 	attack_time = .5,
 	attack_stamina = 2,
 	block_stamina = 4,
-	damage = 15,
+	damage = 4,
 	block_distance = .7,
 	tooldef = {
 		description = "Knife",
@@ -109,7 +109,7 @@ swordfighting_register_sword("swordfighting:knife_stone", {--stone knife
 	attack_time = .5,
 	attack_stamina = 2,
 	block_stamina = 4,
-	damage = 10,
+	damage = 3,
 	block_distance = .7,
 	max_uses = 50,
 	tooldef = {
